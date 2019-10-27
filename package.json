@@ -1,0 +1,27 @@
+{
+  "name": "payment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "PATH_TYPE=dev vue-cli-service serve --mode development",
+    "mock": "concurrently 'node server/index.js' 'PATH_TYPE=mock vue-cli-service serve --mode mockserver'",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
