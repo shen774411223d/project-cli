@@ -1,14 +1,10 @@
 
-## vue create your-project
-
-## git clone xxx
-
-## cd xxx
-
-## npm install
-
-## npm run serve
 ## 这个项目是我在开发过程中想到的一些模块化或者说方便开发的东西，把这些东西稍微整理了一下，目的是方便开发和练手
+* ### HOW USE?
+     - #### git clone [https://github.com/shen774411223d/project_cli.git](https://github.com/shen774411223d/project_cli.git)
+     - #### cd project_cli
+     - #### npm install && npm run serve
+
 - 模块的定义？
      - views下每个文件作为一个模块，即按页面分模块
      - store下每个文件作为一个模块，即按功能或页面分模块
