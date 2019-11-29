@@ -26,3 +26,5 @@
 - server 类似mock server。是用koa启的一个服务器，端口：4001 使用方法参考koa
 - scripts命令里的参数可以通过process.env获取
 - server文件应该不被打包
+
+### 关于这个cli我写了一篇文章，主要讲我规划的动机和具体实现说明。放在了[这里](https://github.com/shen774411223d/book/blob/master/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE%E6%9E%B6%E6%9E%84.md)
