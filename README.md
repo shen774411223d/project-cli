@@ -1,5 +1,10 @@
 
 ## 这个项目是我在开发过程中想到的一些模块化或者说方便开发的东西，把这些东西稍微整理了一下，目的是方便开发和练手
+
+* ### 它基于什么?
+     - #### 基于Vue2.x版本
+     - #### 基于Vue Cli 3.x版本
+
 * ### HOW USE?
      - #### git clone [https://github.com/shen774411223d/project_cli.git](https://github.com/shen774411223d/project_cli.git)
      - #### cd project_cli
